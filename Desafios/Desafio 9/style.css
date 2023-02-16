@@ -1,0 +1,26 @@
+@charset "UTF8";
+
+body {background-color: rgb(40, 38, 38);}
+
+h1{color: white;text-align: center;}
+
+#imagem-hard {
+    display: flex;
+    margin-left: 35%;
+}
+
+#imagem-html {
+    display: flex;
+    margin-left: 35%;
+}
+
+#imagem-js {
+    display: flex;
+    margin-top: -225px;
+    margin-left: 49%;
+}
+
+#imagem-python {
+    display: flex;
+    margin-left: 49%;
+}

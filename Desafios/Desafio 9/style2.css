@@ -1,0 +1,21 @@
+@charset "UTF8";
+
+body {background-color: rgb(40, 38, 38);}
+
+h1 {color: white;
+text-align: center;}
+
+p {color: white;
+text-align: center;}
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#voltar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

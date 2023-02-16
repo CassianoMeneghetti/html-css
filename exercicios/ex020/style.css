@@ -1,0 +1,24 @@
+@charset "UTF8";
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:visited { /* LINK VISITADO */
+    color: rgb(102, 152, 28);
+}
+
+a:hover { /* PASSAR O MOUSE POR CIMA DO LINK */
+    text-decoration:underline ;
+    color: greenyellow;
+}
+
+a:active { /* QUNANDO CLICA NO LINK FICA COM A COR DIFERENTE */
+    color: red;
+}
