@@ -1,0 +1,83 @@
+@charset "UTF8";
+
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    background-color: rgb(71, 71, 71);
+    padding: 10px;
+    margin: 0%;
+}
+
+.nave {
+    display: flex;
+    margin-right: 20px;
+}
+
+.nave > li {
+    list-style: none;
+}
+
+.nave > li > a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+#imgnav {
+    width: 50px;
+    position: absolute;
+    top: 10px;
+    left: 700px;
+}
+
+#barranav {
+    position: absolute;
+    top: 25px;
+    left: 1200px;
+    border-radius: 15px;
+    border: none;
+    padding: 5px;
+}
+
+#botãonav {
+    position: absolute;
+    top: 25px;
+    left: 1380px;
+    border-radius: 15px;
+    border: none;
+    padding: 5px;
+}
+
+#imgbanner {
+    height: 90vh;
+    background-image: url(espaco.jpg);
+    background-position: center center;
+    padding: 0%;
+    margin: 0%;
+}
+
+footer {
+    background-color:rgb(71, 71, 71);
+    margin: 0%;
+    padding: 4px;
+}
+
+p {
+    margin: 0%;
+    padding: 0%;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    padding: 0%;
+    margin: 0%;
+    position: absolute;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
